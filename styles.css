@@ -1,4 +1,3 @@
-/* General Styles */
 body {
     font-family: 'Poppins', sans-serif;
     background-color: #f0f4f8;
@@ -39,8 +38,8 @@ main {
     padding: 40px 0;
 }
 
-/* Location Card */
-.location-card {
+/* Location */
+.location-box {
     background: white;
     margin-bottom: 30px;
     padding: 25px;
@@ -49,12 +48,12 @@ main {
     transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
 
-.location-card:hover {
+.location-box:hover {
     transform: translateY(-5px);
     box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
 }
 
-.location-card h2 {
+.location-box h2 {
     color: #2575fc;
 }
 
@@ -73,7 +72,7 @@ main {
 
 /* Footer */
 footer {
-    background: #333;
+    background: black;
     color: white;
     text-align: center;
     padding: 15px;
